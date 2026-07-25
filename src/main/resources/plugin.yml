@@ -1,0 +1,12 @@
+name: NexusBackpacks
+version: ${project.version}
+main: com.nexusuniverse.backpacks.NexusBackpacksPlugin
+api-version: '1.21'
+author: Nexus Universe
+description: Portable, tiered backpacks with unlockable abilities like a pickup magnet and auto-sort.
+
+commands:
+  nexusbackpacks:
+    description: Give backpacks and upgrade items.
+    aliases: [nb, backpacks]
+    usage: /nexusbackpacks give <backpack|upgrade_core|magnet_core|sorting_core> [player]
