@@ -1,0 +1,14 @@
+# NexusBackpacks configuration
+
+magnet:
+  radius: 4.0
+  tick-interval: 10 # every 0.5s (in ticks) -- kept coarser than 1 tick since it deserializes NBT per check
+
+upgrade:
+  cores-per-tier: 1 # Upgrade Cores consumed per tier increase, flat regardless of source tier
+
+hint:
+  enabled: true
+  cooldown-seconds: 300 # minimum time between hints for the same player, so switching slots repeatedly doesn't spam chat
+  message-java: "&b&lBackpack &7-> Right-click to open. Sneak + right-click with a core in your off-hand to upgrade it."
+  message-bedrock: "&b&lBackpack &7-> Press Use/Interact to open. Crouch + Use while holding a core in your other hand to upgrade it."
