@@ -1,8 +1,0 @@
-# NexusBackpacks configuration
-
-magnet:
-  radius: 4.0
-  tick-interval: 10 # every 0.5s (in ticks) -- kept coarser than 1 tick since it deserializes NBT per check
-
-upgrade:
-  cores-per-tier: 1 # Upgrade Cores consumed per tier increase, flat regardless of source tier
